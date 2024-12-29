@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
 :root{
 	--orange-color: #DEAD0C;
@@ -35,7 +39,6 @@ a {
 }
 nav > ul {
 	list-style: none;
-	font-family: 'Chivo Mono', monospace;
 	font-size: 16px;
 }
 .top-margin {
@@ -101,7 +104,6 @@ p {
 	color: var(--orange-color);
 	font-weight: bold;
 	font-size: 20px;
-	font-family: 'Chivo Mono', monospace;
 	margin-bottom: 20px;
 }
 
@@ -153,7 +155,6 @@ h1 {
 	padding: 10px;
 	font-size: 18px;
 	cursor: pointer;
-	font-family: 'Chivo Mono', monospace;
 }
 
 .button-link:hover {
@@ -184,7 +185,6 @@ h1 {
 	font-size: 16px;
 	display: flex;
 	flex-wrap: wrap;
-	font-family: 'Chivo Mono', monospace;
 }
 #about-tools li {
 	color: #8892b0;
@@ -239,7 +239,6 @@ h1 {
 }
 #company {
 	border-left: 2.5px solid rgba(64, 224, 208, 0.171);
-	font-family: 'Chivo Mono', monospace;
 }
 
 #company li {
@@ -381,7 +380,6 @@ h1 {
 }
 .pro-stack {
 	padding-top: 30px;
-	font-family: 'Chivo Mono', monospace;
 }
 .icon-color {
 	color: var(--pale-green);
